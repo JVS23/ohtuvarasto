@@ -10,6 +10,7 @@ class TestVarasto(unittest.TestCase):
 
     def test_konstruktori_luo_tyhjan_varaston(self):
         # https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertAlmostEqual
+        # testi
         self.assertAlmostEqual(self.varasto.saldo, 0)
 
     def test_luo_nega_varasto(self):
