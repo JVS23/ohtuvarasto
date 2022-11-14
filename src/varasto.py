@@ -2,7 +2,8 @@ class Varasto:
     def __init__(self, tilavuus, alku_saldo = 0):
 
         self.tilavuus = max(0, tilavuus)
-
+        
+        TESTI_MUUTTUJA = 400
 
         if alku_saldo < 0.0:
             # virheellinen, nollataan
